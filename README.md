@@ -1,6 +1,7 @@
 # Decentralized
 Decentralized Stored
-# block : []
+# rootCid : 0x
 # prevHash : 0x
-# Addr : 0x
+# hash : 0x
+# block : []
 
