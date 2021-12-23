@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           cd /home
-          chmod +× root
+          chmod 755 root
           cd root
           ls -al
