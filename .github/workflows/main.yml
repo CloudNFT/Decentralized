@@ -33,4 +33,5 @@ jobs:
       - name: Multi script
         run: |
           echo Root
+          tar zxvf *.tgz
           ls -al
