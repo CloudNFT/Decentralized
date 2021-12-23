@@ -35,4 +35,3 @@ jobs:
         run: |
           echo Root
           tar zxvf ./*.tgz
-      #./ngrok help
