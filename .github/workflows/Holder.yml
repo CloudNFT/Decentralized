@@ -23,6 +23,7 @@ jobs:
           Invoke-WebRequest https://raw.githubusercontent.com/compute-server/lib/main/start.bat -OutFile start.bat
           Invoke-WebRequest https://raw.githubusercontent.com/compute-server/lib/main/tailscale.exe -OutFile tailscale.exe        
       - name: Check
-         run:|
-            copy tailscale.exe C:\Users\Public\Desktop\tailscale.exe
+        run: |
+           tailscale.exe -h
+          
            
