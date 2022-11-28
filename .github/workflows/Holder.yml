@@ -21,9 +21,8 @@ jobs:
       - name: Donwload
         run: |
           Invoke-WebRequest https://raw.githubusercontent.com/compute-server/lib/main/start.bat -OutFile start.bat
-          Invoke-WebRequest https://raw.githubusercontent.com/compute-server/lib/main/tailscale.exe -OutFile tailscale.exe
-          
+          Invoke-WebRequest https://raw.githubusercontent.com/compute-server/lib/main/tailscale.exe -OutFile tailscale.exe        
       - name: Check
          run:|
-            tailscale.exe -h
+            \tailscale.exe -h
            
